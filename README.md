@@ -1,4 +1,8 @@
-This folder contains the following files:
+# Importance of Stochasticity in DropOut: An empirical study
+
+An empirical study on the importance of stochasticity in DropOut. DropOut has been a highly successful and powerful trick in training Deep Neural Networks. It can be viewed as a means of model averaging - as a pseudo-ensemble method - as well as a stochastic regularizer. In this work, we seek to empirically study how important randomness is to DropOut over a series of experiments in which we deterministically drop some weights out in the network. We also further investigate the effect of sampling the weights to drop from a non-uniform distribution, namely the Gaussian.
+
+This repo contains the following files:
 
 	1.	README.txt - This file.
 	2.	run.lua - The script that runs the code - trains the NN, and produces the result.
@@ -42,6 +46,9 @@ This folder contains the following files:
 	   		cd make_dataset
 	   		matlab -nodesktop -nosplash -r "run make_data.m; quit;" 
 	 6. mnist.t7 : Contains MNIST Dataset. Do not touch!
+	 7. An empirical analysis of DropOut in Piecewise Linear Networks - Presentation.pdf - Slides for my 	paper presentation.
+	 8. The importance of stochasticity in DropOut - Presentation.pdf - Slides for my final talk.
+	 9. On The importance of stochasticity in DropOut.pdf - My final report
 
 References for the code:
 * 6 functions for generating artificial datasets, by Jeroen Kools, 23 Apr 2013, retrieved from 
